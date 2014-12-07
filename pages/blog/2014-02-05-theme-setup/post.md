@@ -1,3 +1,12 @@
+---
+title:  "Mediator Theme Setup"
+slug: theme-setup
+date:   02/05/2014
+taxonomy:
+    tag: [sample post, featured, installation]
+image: tools.jpg
+---
+
 # Mediator Origins
 
 The Mediator theme for Grav is a direct port of the [Mediator Theme for Jekyll](https://github.com/dirkfabisch/mediator) designed by [Dirk Fabisch](http://blog.base68.com/about/) which in turn was inspired by the [Readium 2.0 Theme for Ghost](http://www.svenread.com/readium-ghost-theme/).
