@@ -135,6 +135,24 @@ The Mediator theme supports 3 page types via templates:
 * **default**: the template used to display the default blog listing view
 * **post**: a full page of the blog post
 * **page**: similar to the post, but without author information or reading-time
+ 
+# Adding / Changing images on Posts
+
+The title image in a Post is handled in the page's metadata. To include a title image you need to use "Expert" mode when editing a page on Grav Admin panel. Or if you are using an IDE simply 
+edit the header segment of the markdown file.
+
+Then simply add a property for image e.g.
+```
+title: 'Your Post"
+taxonomy:
+    tag:
+        - foo
+        - bar
+slug: your-post
+image: your-image.jpg
+
+```
+
 
 # Licensing
 
